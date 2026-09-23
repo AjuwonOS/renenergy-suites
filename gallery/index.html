@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Renenergy Suites — Gallery</title>
+  <link rel="stylesheet" href="../gallery/style.css" />
+  <script src="../gallery/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">
+      <span class="brand-mark">RenEnergy Suites</span>
+      
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="gold-btn" href="https://paystack.shop/pay/renenergysuites">RESERVE AN APARTMENT</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="gallery-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Renenergy Suites</p>
+        <h1>See the apartment<br /><span>for yourself.</span></h1>
+        <p>Explore the spaces, rooms and compound exactly as they are.</p>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+      <div class="section-heading">
+        <p class="eyebrow">ON-SITE PHOTOGRAPHY</p>
+        <h2>THE ROOMS THAT SPEAK FOR THEMSELVES</h2>
+        <p>Every image is from Renenergy Suites.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <button class="gallery-card card-large" data-index="0" type="button">
+          <img src="../assets/unsplash_BE9-swZtUa8.png" alt="Renenergy apartment compound" />
+          <span>GATED SECURITY &amp; COMPOUND</span>
+        </button>
+
+        <button class="gallery-card" data-index="1" type="button">
+          <img src="../assets/pexels-memory-lane-2157293172-35829896 1.png" alt="Fully furnished living room" />
+          <span>COMPLETE FULLY FURNISHED LIVING ROOM</span>
+        </button>
+
+        <button class="gallery-card" data-index="2" type="button">
+          <img src="../assets/unsplash_Id2IIl1jOB0.png" alt="Bedroom" />
+          <span>KING-SIZE BED WITH PRIVATE BED CURTAINS</span>
+        </button>
+        
+        <button class="gallery-card" data-index="3" type="button">
+          <img src="../assets/unsplash_ckdoA-tv9uw.png" alt="Modern bathroom" />
+          <span>MODERN TOILET &amp; BATHROOM</span>
+        </button>
+
+        <button class="gallery-card" data-index="4" type="button">
+          <img src="../assets/unsplash_1voJQ66DIDM.png" alt="Fully functional kitchen" />
+          <span>FULLY FUNCTIONAL KITCHEN</span>
+        </button>
+
+        <button class="gallery-card card-wide" data-index="5" type="button">
+          <img src="../assets/unsplash_QYVarY4t49o.png" alt="Renenergy apartment exterior" />
+          <span>THE APARTMENT COMPLEX</span>
+        </button>
+        
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <b>Renenergy Suites</b>
+      <p>Comfort, convenience and reliable energy.</p>
+    </div>
+    <div>
+      <b>LEASING DESK</b>
+      <p>+234 902 284 1093</p>
+    </div>
+    <div>
+      <a class="gold-btn" href="https://paystack.shop/pay/renenergysuites">RESERVE AN APARTMENT</a>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" type="button" aria-label="Close gallery">×</button>
+    <button class="lightbox-arrow lightbox-prev" type="button" aria-label="Previous image">&#10094;</button>
+    <div class="lightbox-content">
+      <img id="lightbox-image" src="" alt="" />
+      <p id="lightbox-caption"></p>
+    </div>
+    <button class="lightbox-arrow lightbox-next" type="button" aria-label="Next image">&#10095;</button>
+  </div>
+</body>
+</html>
