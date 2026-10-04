@@ -19,12 +19,30 @@ navLinks.querySelectorAll('a').forEach((link) => {
 });
 
 const gallery = [
-  { src: '../assets/unsplash_BE9-swZtUa8.png', caption: 'GATED SECURITY & COMPOUND' },
-  { src: '../assets/pexels-memory-lane-2157293172-35829896 1.png', caption: 'COMPLETE FULLY FURNISHED LIVING ROOM' },
-  { src: '../assets/unsplash_Id2IIl1jOB0.png', caption: 'KING-SIZE BED WITH PRIVATE BED CURTAINS' },
-  { src: '../assets/unsplash_ckdoA-tv9uw.png', caption: 'MODERN TOILET & BATHROOM' },
-  { src: '../assets/unsplash_1voJQ66DIDM.png', caption: 'FULLY FUNCTIONAL KITCHEN' },
-  { src: '../assets/unsplash_QYVarY4t49o.png', caption: 'THE APARTMENT COMPLEX' }
+  {
+    src: "https://lh3.googleusercontent.com/pw/AP1GczPN9tetsOrUxnDG-rWKMFE3oG1BvR2AKUUCxY-Npn82X7OlTlhcFgtBNSmEc6dFuWBmBbIf5ogV05MBLrwjAno9N_oLe1h82G_y7uLSjaI2514d6w15IGTfs46C-niKUuUHnK6Sxc0Cg4DNl4BVFEvt=w949-h695-s-no-gm?authuser=0",
+    caption: "GATED SECURITY & COMPOUND",
+  },
+  {
+    src: "https://lh3.googleusercontent.com/pw/AP1GczONU3_lCCr7ld4Nlke6Y_EMkKbiGxN_b8d-HKyTjO9EI-1vBdM9bbBo4X9qfTpJyryUW15BE9WOctph9QmXuC9nD3VcsyYcwyDBL5X2hPk0DoanSOUU9K0RHw03BcV-L3eCwWQcCDpvqbicfDHIzpJV=w638-h915-s-no-gm?authuser=0",
+    caption: "COMPLETE FULLY FURNISHED LIVING ROOM",
+  },
+  {
+    src: "https://lh3.googleusercontent.com/pw/AP1GczOy_i7GjSnC75U2t5S0HzDlrycMTajPmwMxyMAfYbMdrosX4zsIcs6GzMDFawJl6Vx-Y7Lt61apOWWiq2SZzU7uOYF_A8kC2-hq-m5Y6iK_fgsdEpo0dBRc8bh1Ah0ixDB7EeAEw2-ZArvtOV1Iuc2F=w949-h634-s-no-gm?authuser=0",
+    caption: "KING-SIZE BED WITH PRIVATE BED CURTAINS",
+  },
+  {
+    src: "https://lh3.googleusercontent.com/pw/AP1GczPfhNPl7IgnQADVf2jEgNkfHPBA-6KIGUXdZwzT0c9spTVGKV4A21XC6r3TElf-o9ai2HWi5X76KuqpO1rnKFT6TnShHVALnx8bZR0wYk9Eh9_bNF9z_kdfMCIgYz190I3lNmE6GYIDeEyMBKcIMP4x=w611-h915-s-no-gm?authuser=0",
+    caption: "MODERN TOILET & BATHROOM",
+  },
+  {
+    src: "https://lh3.googleusercontent.com/pw/AP1GczOP62I6vqCge4upxZiCBkpZrbjgSg9mTWaFTWaeXe-pz0mUtD_69QK81sRaaxyhrLq4zwW-xkzL5jDw5vBtCiz8UyGBf_i633m-t9XvrNaFNK6_24qKmUCnCQzNuqK0Dcvj5LjlJJgCmR7dlyzuEEFa=w949-h644-s-no-gm?authuser=0",
+    caption: "FULLY FUNCTIONAL KITCHEN",
+  },
+  {
+    src: "../assets/unsplash_QYVarY4t49o.png",
+    caption: "THE APARTMENT COMPLEX",
+  },
 ];
 
 const lightbox = document.querySelector('#lightbox');
