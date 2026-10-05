@@ -33,7 +33,7 @@ button { font: inherit; }
   justify-content: space-between;
   gap: 24px;
   padding: 18px 4%;
-  background: #0b0d12;
+  background: #182346;
   border-bottom: 1px solid #171a21;
 }
 
@@ -107,7 +107,7 @@ button { font: inherit; }
 
 .gallery-section {
   padding: 82px 5.5% 100px;
-  background: #111319;
+  background: #182346;
 }
 
 .section-heading {
@@ -194,7 +194,7 @@ footer {
   align-items: center;
   gap: 35px;
   padding: 38px 5%;
-  background: #111319;
+  background: #182346;
   border-top: 1px solid var(--line);
   font-size: 13px;
 }
